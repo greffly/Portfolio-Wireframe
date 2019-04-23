@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+    background-color: rgb(199, 199, 199) ;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .homePage {
+    padding: 15%;
+    background-color: rgb(236, 234, 234);
+  }
+  
+  .aboutPage {
+    padding: 10%;
+    background-color: gainsboro;
+  }
+  
+  .aboutMe {
+    margin: 20px;
+    padding: 0;
+  }
+  
+  .projects {
+    background-color: rgb(232, 236, 225);
+    padding: 5%;
+  }
+  
+  .projectList {
+    padding: 5%;
+  }
+  
+  .screengrab {
+    padding: 20%;
+    margin: 10% 10% 0 10%;
+    background-color: gray;
+  }
+  
+  .projectTitle, .projectBlurb {
+    margin: 5px;
+  }
+  
+  .projectGroup {
+    margin: 20px;
+  }
+  
+  .contactInfo, .languages {
+    padding: 3%;
+  }
+  
+  .languageList {
+    padding-top: 5%;
+  }
+  
+  .contact {
+    padding: 5%;
+    background-color: rgb(167, 166, 166);
+    width: 100%;
+  }
